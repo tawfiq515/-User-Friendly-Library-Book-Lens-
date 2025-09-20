@@ -16,7 +16,7 @@ A smart book discovery platform built with Streamlit, OCR, ML recommender, and w
 
 ### 2) Key Features
 
-* 🔎 **Web Scraping**: Collects book data from google books (https://www.googleapis.com/books/v1/volumes)
+* 🔎 **Web Scraping**: Collects book data from google books ([https://www.googleapis.com/books/v1/volumes](https://developers.google.com/books))
 * 🗄️ **Database Storage**: Uses SQLite (default) with SQLAlchemy, supports MySQL/PostgreSQL.
 * 🧹 **Data Cleaning**: Normalizes text, removes duplicates, standardizes formatting.
 * 🖼️ **OCR (Tesseract)**: Extracts text from book covers and fuzzy-matches with stored titles.
